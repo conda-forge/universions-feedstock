@@ -1,5 +1,5 @@
 {% set name = "universions" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6d3482c02436d781a1dd84b6b10f05e00e74aafa9c7e630a2d6f8762dfe481bf
+  sha256: 87558a4d111da5175bfd3fb4f0412dbfc6843ae3007e6daa20ccb9853a4915c2
 
 
 build:
